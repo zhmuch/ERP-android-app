@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+<RelativeLayout
+    android:layout_height="50dp"
+    android:layout_width="fill_parent"
+  >   
+    <TextView
+        android:id="@+id/tv_headbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:background="@drawable/bar_bg"
+        android:text="@string/rec_zljy" />
+
+    	<Button
+    	    android:id="@+id/btn_back2"
+    	    style="?android:attr/buttonStyleSmall"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="35dp"
+    	    android:layout_alignParentLeft="true"
+    	    android:layout_centerVertical="true"
+    	    android:layout_marginLeft="5dp"
+    	    android:background="@drawable/btn_back_selector"
+    	    android:gravity="center"
+    	    android:text="@string/back"
+    	    android:textColor="#ffffff" />
+
+ </RelativeLayout>
+
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:orientation="horizontal"
+        	android:layout_margin="5dp"
+        	android:gravity="center">
+	
+        <RadioButton
+            android:id="@+id/rb_first_check"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:gravity="center"
+            android:checked="true"
+            android:text="@string/first_check" 
+            android:onClick="onRadioButtonClicked"/>
+
+        <RadioButton
+            android:id="@+id/rb_process_check"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:gravity="center"
+            android:onClick="onRadioButtonClicked"
+            android:text="@string/process_check" />
+    </RadioGroup>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+				  >
+				 
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            
+            android:text="@string/zldh_length" />
+
+        <EditText
+            android:id="@+id/et_zldh_len"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10" >
+
+            <requestFocus />
+        </EditText>
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/btn_sceneone_confirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/style2_button_selector"
+        android:text="@string/inputzldh" />
+
+</LinearLayout>

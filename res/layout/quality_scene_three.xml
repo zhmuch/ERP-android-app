@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp" >
+
+        <TextView
+            android:id="@+id/tv_headbar"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/bar_bg"
+            android:gravity="center"
+            android:text="@string/rec_zljy"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/btn_back"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/btn_back_selector"
+            android:gravity="center"
+            android:text="@string/back"
+            android:textColor="#ffffff" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp" 
+        android:layout_marginRight="5dp">
+
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="0.15"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:text="@string/zldh" />
+
+        <EditText
+            android:id="@+id/et_zldh"
+            android:layout_width="30dp	"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.35"
+            android:textSize="12sp"
+            android:editable="false"
+            android:ems="10" >
+
+            <requestFocus />
+        </EditText>
+
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="0.15"
+            android:gravity="center"
+            android:textSize="12sp"
+            android:text="@string/ph" />
+
+        <EditText
+            android:id="@+id/et_ph"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.35"
+            android:textSize="12sp"
+            android:editable="false"
+            android:ems="10" >
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp" 
+        android:layout_marginRight="5dp">
+
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="0.2"
+            android:gravity="center"
+            android:textSize="12sp"
+            android:text="@string/pih" />
+
+        <EditText
+            android:id="@+id/et_pih"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.7"
+            android:editable="false"
+            android:textSize="12sp"
+            android:ems="10" >
+
+            <requestFocus />
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp" 
+        android:layout_marginRight="5dp">
+
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="0.15"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:text="@string/ygdh" />
+
+        <EditText
+            android:id="@+id/et_ygdh"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.35"
+            android:editable="false"
+            android:textSize="12sp"
+            android:ems="10" >
+            <requestFocus />
+        </EditText>
+
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="0.15"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:text="@string/ygxm" />
+
+        <EditText
+            android:id="@+id/et_ygxm"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.35"
+            android:editable="false"
+            android:textSize="12sp"
+            android:ems="10" >
+
+            
+        </EditText>
+    </LinearLayout>
+
+s
+
+    <ListView
+        android:id="@+id/lv_zljy"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_weight="0.8" >
+
+    </ListView>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/btn_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:background="@drawable/style2_button_selector"
+            android:text="@string/save" />
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:background="@drawable/style2_button_selector"
+            android:text="@string/cancel" />
+
+    </LinearLayout>
+
+</LinearLayout>

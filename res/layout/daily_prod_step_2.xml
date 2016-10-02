@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+<RelativeLayout
+    android:layout_height="50dp"
+    android:layout_width="fill_parent"
+  >   
+    <TextView
+        android:id="@+id/tv_headbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:background="@drawable/bar_bg"
+        android:text="@string/rec_scrb" />
+
+    	<Button
+    	    android:id="@+id/btn_back"
+    	    style="?android:attr/buttonStyleSmall"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="35dp"
+    	    android:layout_alignParentLeft="true"
+    	    android:layout_centerVertical="true"
+    	    android:layout_marginLeft="5dp"
+    	    android:background="@drawable/btn_back_selector"
+    	    android:gravity="center"
+    	    android:text="@string/back"
+    	    android:textColor="#ffffff" />
+
+ </RelativeLayout>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="50dp" 
+    android:layout_margin="5dp">
+
+    <TextView
+        android:id="@+id/tv_scsl"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.8"
+        android:text="@string/scsl" />
+
+    <EditText
+        android:id="@+id/et_scsl"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:editable="false"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="50dp" 
+    android:layout_margin="5dp">
+
+    <TextView
+        android:id="@+id/tv_zldh"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.8"
+        android:text="@string/zldh" />
+
+    <EditText
+        android:id="@+id/et_zldh"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:editable="false"
+        android:ems="10" />
+
+</LinearLayout>
+
+<CheckBox
+    android:id="@+id/rb_all"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/show_all" />
+
+<ListView
+    android:id="@+id/lv_tz"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+</ListView>
+
+</LinearLayout>

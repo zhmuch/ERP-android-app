@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_marginBottom="5dp"
+    android:layout_marginTop="5dp"
+     >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="50dp"
+    		 android:layout_height="wrap_content"    
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_weight="0.5"
+        android:gravity="center"
+        android:text="@string/zc" />
+
+    <EditText
+        android:id="@+id/det_zc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:text=""
+        android:editable="false"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_marginBottom="5dp"
+    android:layout_marginTop="5dp"
+     >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="50dp"
+    		 android:layout_height="wrap_content"    
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_weight="0.5"
+        android:gravity="center"
+        android:text="@string/ygdh" />
+
+    <EditText
+        android:id="@+id/det_ygdh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:editable="false"
+        android:text=""
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_marginBottom="5dp"
+    android:layout_marginTop="5dp"
+     >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="50dp"
+    		 android:layout_height="wrap_content"    
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_weight="0.5"
+        android:gravity="center"
+        android:text="@string/ygxm" />
+
+    <EditText
+        android:id="@+id/det_ygxm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:text=""
+        android:editable="false"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_marginBottom="5dp"
+    android:layout_marginTop="5dp"
+     >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="50dp"
+    		 android:layout_height="wrap_content"    
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_weight="0.5"
+        android:gravity="center"
+        android:text="@string/scsl" />
+
+    <EditText
+        android:id="@+id/det_scsl"
+        android:inputType="number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:text=""
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:layout_marginBottom="5dp"
+    android:layout_marginTop="5dp"
+     >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="50dp"
+    		 android:layout_height="wrap_content"    
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_weight="0.5"
+        android:gravity="center"
+        android:text="@string/scslf" />
+
+    <EditText
+        android:id="@+id/det_scslf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:ems="10"
+        android:inputType="number"
+        android:text="" >
+
+    </EditText>
+
+</LinearLayout>
+
+
+
+</LinearLayout>

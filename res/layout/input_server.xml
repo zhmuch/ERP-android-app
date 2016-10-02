@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+<LinearLayout 
+    android:id="@+id/server1"
+    android:layout_width="fill_parent"
+    android:layout_height="50dp">
+
+    <TextView
+        android:id="@+id/tv_server1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:text="@string/server1" />
+
+    <EditText
+        android:id="@+id/et_server1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:textColor="#000000"
+        android:textCursorDrawable="@null"
+        android:ems="10" >
+	
+        <requestFocus />
+    </EditText>
+</LinearLayout>
+<LinearLayout 
+    android:id="@+id/server2"
+    android:layout_width="fill_parent"
+    android:layout_height="50dp">
+
+    <TextView
+        android:id="@+id/tv_server2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#000000"
+        
+        android:text="@string/server2"/>
+
+    <EditText
+        android:id="@+id/et_server2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textCursorDrawable="@null"
+        android:singleLine="true"
+        android:ems="10" />
+    </LinearLayout>
+</LinearLayout>

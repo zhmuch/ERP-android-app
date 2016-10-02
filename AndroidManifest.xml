@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.nearu.grierp"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+	<uses-permission android:name="android.permission.INTERNET"/>
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/gri"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.nearu.grierp.activity.LoginActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.nearu.grierp.activity.ModuleActivity"
+             
+            />
+        <activity
+            android:name="com.nearu.grierp.activity.ManageReceiptActivity" 
+            />
+        <activity
+             android:name="com.nearu.grierp.activity.CheckReceiptInActivity"
+            />            
+     <activity
+            android:name="com.nearu.grierp.activity.QualityCheckActivity" 
+         />
+   <activity
+            android:name="com.nearu.grierp.activity.QualityCheckSceneTwo" 
+         />
+    <activity
+            android:name="com.nearu.grierp.activity.QualityCheckSceneThree" 
+         />
+   	<activity
+            android:name="com.nearu.grierp.activity.QualityCheckSceneFour" 
+         />    
+   	<activity
+            android:name="com.nearu.grierp.activity.DailyProdStepOneActivity" 
+            />
+   	<activity
+            android:name="com.nearu.grierp.activity.DailyProdStepTwoActivity" 
+            />
+   	<activity
+            android:name="com.nearu.grierp.activity.DailyProdStepThreeActivity" 
+            />
+        <receiver
+            android:name="com.nearu.grierp.comm.CommonReceiver"
+            >
+            <intent-filter>
+                <action android:name="change_lang"></action>
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

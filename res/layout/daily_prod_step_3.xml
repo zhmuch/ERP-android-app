@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    >
+    
+<RelativeLayout
+    android:layout_height="50dp"
+    android:layout_width="fill_parent"
+  >   
+    <TextView
+        android:id="@+id/tv_headbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:background="@drawable/bar_bg"
+        android:text="@string/rec_scrb" />
+
+    	<Button
+    	    android:id="@+id/btn_back"
+    	    style="?android:attr/buttonStyleSmall"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="35dp"
+    	    android:layout_alignParentLeft="true"
+    	    android:layout_centerVertical="true"
+    	    android:layout_marginLeft="5dp"
+    	    android:background="@drawable/btn_back_selector"
+    	    android:gravity="center"
+    	    android:text="@string/back"
+    	    android:textColor="#ffffff" />
+    <Button
+            android:id="@+id/btn_new"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+     					android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/menu_btn_selector"
+            android:layout_marginRight="5dp"
+            android:textSize="12sp"
+            android:textColor="#ffffff"
+            android:text="@string/new_record" />
+
+ </RelativeLayout>
+ <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+        android:layout_marginBottom="3dp"
+     >
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="50dp"
+    		 android:layout_height="wrap_content"    
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_weight="0.5"
+        android:gravity="center"
+        android:text="@string/tgdh" />
+
+    <EditText
+        android:id="@+id/et_tz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:text=""
+        android:editable="false"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+    </LinearLayout>
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+        android:layout_marginBottom="3dp"
+    
+     >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="50dp"
+    		 android:layout_height="wrap_content"    
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_weight="0.5"
+        android:gravity="center"
+        android:text="@string/wwgsl" />
+
+    <EditText
+        android:id="@+id/et_wwgs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:text=""
+        android:editable="false"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+    </LinearLayout>
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+        android:layout_marginBottom="3dp"
+    
+     >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="50dp"
+    		 android:layout_height="wrap_content"    
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_weight="0.5"
+        android:gravity="center"
+        android:text="@string/zc" />
+
+    <EditText
+        android:id="@+id/et_zc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:text=""
+        android:editable="false"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+    </LinearLayout>
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+        android:layout_marginBottom="3dp"
+    
+     >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="50dp"
+    		 android:layout_height="wrap_content"    
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_weight="0.5"
+        android:gravity="center"
+        android:text="@string/wgsl" />
+
+    <EditText
+        android:id="@+id/et_wgsl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:text=""
+        android:editable="false"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+    </LinearLayout>
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        >
+
+    
+	<LinearLayout 
+	    	android:id="@+id/btn_layout"
+	    	 android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        >
+		<Button 
+		    android:id="@+id/btn_save"
+		    android:text="@string/save"
+		    android:layout_width="match_parent"
+		    android:layout_height="40dp"
+		    android:layout_margin="5dp"
+				 android:background="@drawable/style2_button_selector"
+		    >
+		</Button>
+		
+		</LinearLayout>
+		<ListView
+        android:id="@+id/lv_record"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/btn_layout"
+        android:layout_alignParentTop="true"
+        >
+		</ListView>
+		</RelativeLayout>
+		    </LinearLayout>

@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+	<ScrollView
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent" 
+	    android:id="@+id/sv_form"
+	    >
+	    <LinearLayout 
+	        android:layout_width="fill_parent"
+	    	android:layout_height="fill_parent"
+	    	android:orientation="vertical"	
+	        >
+	    <LinearLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="50dp"
+	        android:orientation="horizontal" >
+	
+	        <TextView
+	            android:layout_width="60dp"
+	            android:layout_height="50dp"
+	            android:gravity="center"
+				android:layout_marginRight="10dp"
+				android:layout_marginLeft="10dp"            
+	            android:textSize="15sp" 
+	            android:text="@string/tm"/>
+	
+	        <EditText
+	            android:id="@+id/et_tm"
+	            android:layout_width="match_parent"
+	            android:layout_height="50dp"
+	            android:editable="false"
+	            android:text="" >
+	
+	            <requestFocus />
+	        </EditText>
+	    </LinearLayout>
+	        <LinearLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="50dp"
+	        android:orientation="horizontal" >
+	
+	        <TextView
+	            android:layout_width="60dp"
+	            android:layout_height="50dp"
+	            android:gravity="center"
+				android:layout_marginRight="10dp"
+				android:layout_marginLeft="10dp"            
+	            android:textSize="15sp" 
+	            android:text="@string/zldh"/>
+	
+	        <EditText
+	            android:id="@+id/et_zldh"
+	            android:layout_width="match_parent"
+	            android:layout_height="50dp"
+	            android:editable="false"
+	            android:text="" >
+	
+	            
+	        </EditText>
+	    </LinearLayout>
+	        <LinearLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="50dp"
+	        android:orientation="horizontal" >
+	
+	        <TextView
+	            android:layout_width="60dp"
+	            android:layout_height="50dp"
+	            android:gravity="center"
+				android:layout_marginRight="10dp"
+				android:layout_marginLeft="10dp"            
+	            android:textSize="15sp" 
+	            android:text="@string/ph"/>
+	
+	        <EditText
+	            android:id="@+id/et_ph"
+	            android:layout_width="match_parent"
+	            android:layout_height="50dp"
+	            android:editable="false"
+	            android:text="" >
+	
+	            
+	        </EditText>
+	    </LinearLayout>
+	        <LinearLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="50dp"
+	        android:orientation="horizontal" >
+	
+	        <TextView
+	            android:layout_width="60dp"
+	            android:layout_height="50dp"
+	            android:gravity="center"
+				android:layout_marginRight="10dp"
+				android:layout_marginLeft="10dp"            
+	            android:textSize="15sp" 
+	            android:text="@string/pm"/>
+	
+	        <EditText
+	            android:id="@+id/et_pm"
+	            android:layout_width="match_parent"
+	            android:layout_height="50dp"
+	            android:editable="false"
+	            android:text="" >
+	
+	            
+	        </EditText>
+	    </LinearLayout>
+	        <LinearLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="50dp"
+	        android:orientation="horizontal" >
+	
+	        <TextView
+	            android:layout_width="60dp"
+	            android:layout_height="50dp"
+	            android:gravity="center"
+				android:layout_marginRight="10dp"
+				android:layout_marginLeft="10dp"            
+	            android:textSize="15sp" 
+	            android:text="@string/pih"/>
+	
+	        <EditText
+	            android:id="@+id/et_ph"
+	            android:layout_width="match_parent"
+	            android:layout_height="50dp"
+	            android:editable="false"
+	            android:text="" >
+	
+	            
+	        </EditText>
+	    </LinearLayout>
+	        <LinearLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="50dp"
+	        android:orientation="horizontal" >
+	
+	        <TextView
+	            android:layout_width="60dp"
+	            android:layout_height="50dp"
+	            android:gravity="center"
+				android:layout_marginRight="10dp"
+				android:layout_marginLeft="10dp"            
+	            android:textSize="15sp" 
+	            android:text="@string/krks"/>
+	
+	        <EditText
+	            android:id="@+id/et_ph"
+	            android:layout_width="match_parent"
+	            android:layout_height="50dp"
+	            android:editable="false"
+	            android:text="" >
+	
+	            
+	        </EditText>
+	    </LinearLayout>
+	            <LinearLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="50dp"
+	        android:orientation="horizontal" >
+	
+	        <TextView
+	            android:layout_width="60dp"
+	            android:layout_height="50dp"
+	            android:gravity="center"
+				android:layout_marginRight="10dp"
+				android:layout_marginLeft="10dp"            
+	            android:textSize="15sp" 
+	            android:text="@string/krkf"/>
+	
+	        <EditText
+	            android:id="@+id/et_krks"
+	            android:layout_width="match_parent"
+	            android:layout_height="50dp"
+	            android:editable="false"
+	            android:text="" >
+	
+	            
+	        </EditText>
+	    </LinearLayout>
+	            <LinearLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="50dp"
+	        android:orientation="horizontal" >
+	
+	        <TextView
+	            android:layout_width="60dp"
+	            android:layout_height="50dp"
+	            android:gravity="center"
+				android:layout_marginRight="10dp"
+				android:layout_marginLeft="10dp"            
+	            android:textSize="15sp" 
+	            android:text="@string/num"/>
+	
+	        <EditText
+	            android:id="@+id/et_krkf"
+	            android:layout_width="match_parent"
+	            android:layout_height="50dp"
+	            android:editable="false"
+	            android:text="" >
+	
+	            
+	        </EditText>
+	    </LinearLayout>
+	            <LinearLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="50dp"
+	        android:orientation="horizontal" >
+	
+	        <TextView
+	            android:layout_width="60dp"
+	            android:layout_height="50dp"
+	            android:gravity="center"
+				android:layout_marginRight="10dp"
+				android:layout_marginLeft="10dp"            
+	            android:textSize="15sp" 
+	            android:text="@string/factoryNo"/>
+	
+	        <EditText
+	            android:id="@+id/et_sl"
+	            android:layout_width="match_parent"
+	            android:layout_height="50dp"
+	            android:editable="false"
+	            android:text="" >
+	
+	            
+	        </EditText>
+	    </LinearLayout>
+	                <LinearLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="50dp"
+	        android:orientation="horizontal" >
+	
+	        <TextView
+	            android:layout_width="60dp"
+	            android:layout_height="50dp"
+	            android:gravity="center"
+				android:layout_marginRight="10dp"
+				android:layout_marginLeft="10dp"            
+	            android:textSize="15sp" 
+	            android:text="@string/dw"/>
+	
+	        <EditText
+	            android:id="@+id/et_sl"
+	            android:layout_width="match_parent"
+	            android:layout_height="50dp"
+	            android:editable="false"
+	            android:text="" >
+	
+	            
+	        </EditText>
+	    </LinearLayout>
+
+    
+	    </LinearLayout>
+	</ScrollView>
+</LinearLayout>

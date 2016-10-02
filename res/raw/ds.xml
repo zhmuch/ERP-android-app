@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DataSet xmlns="http://tempuri.org/">
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="TF_WR">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="YG_NO">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="12" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="YG_NAME" type="xs:string" minOccurs="0" />
+                <xs:element name="QTY" type="xs:decimal" minOccurs="0" />
+                <xs:element name="QTY1" type="xs:decimal" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+      <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//TF_WR" />
+        <xs:field xpath="YG_NO" />
+      </xs:unique>
+    </xs:element>
+  </xs:schema>
+  <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">
+    <NewDataSet xmlns="">
+      <TF_WR diffgr:id="TF_WR1" msdata:rowOrder="0" diffgr:hasChanges="inserted">
+        <YG_NO>A110433</YG_NO>
+        <YG_NAME>XXX</YG_NAME>
+        <QTY>20</QTY>
+        <QTY1>300</QTY1>
+      </TF_WR>
+    </NewDataSet>
+  </diffgr:diffgram>
+</DataSet>

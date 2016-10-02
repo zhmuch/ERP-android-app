@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <ListView
+        android:id="@+id/lv_record"
+        android:layout_width="fill_parent"
+        android:layout_height="292dp"
+        android:layout_above="@+id/btn_group"
+        android:layout_alignParentLeft="true" >
+
+    </ListView>
+
+	<LinearLayout
+	    android:id="@+id/btn_group"
+	    android:layout_width="fill_parent"
+	    android:layout_height="50dp"
+	    android:layout_alignParentBottom="true"
+	    android:layout_alignParentLeft="true" >
+
+	    <Button
+	        android:id="@+id/btn_clear"
+	        android:layout_width="wrap_content"
+	        android:layout_height="50dp"
+	        android:layout_alignParentBottom="true"
+	        android:layout_alignParentRight="true"
+	        android:layout_weight="1"
+	        android:text="@string/clear" />
+
+	    <Button
+	        android:id="@+id/btn_save"
+	        android:layout_width="wrap_content"
+	        android:layout_height="50dp"
+	        android:layout_weight="1"
+	        android:text="@string/save" />
+	</LinearLayout>
+
+	<LinearLayout
+	    android:id="@+id/linearLayout1"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_above="@+id/lv_record"
+	    android:layout_alignParentLeft="true"
+	    android:orientation="horizontal" >
+
+	    <TextView
+	        android:layout_width="40dp"
+	        android:layout_height="30dp"
+	        android:layout_marginLeft="10dp"
+	        android:text="@string/id"
+	        android:textSize="15sp" />
+
+	    <TextView
+	        android:layout_width="50dp"
+	        android:layout_height="30dp"
+	        android:text="@string/tm"
+	        android:textSize="15sp" />
+
+	    <TextView
+	        android:id="@+id/job"
+	        android:layout_width="70dp"
+	        android:layout_height="30dp"
+	        android:text="@string/zldh"
+	        android:textSize="15sp" />
+
+	    <TextView
+	        android:id="@+id/addr"
+	        android:layout_width="50dip"
+	        android:layout_height="30dp"
+	        android:text="@string/ph"
+	        android:textSize="15sp" />
+
+	    <TextView
+	        android:id="@+id/student"
+	        android:layout_width="60dip"
+	        android:layout_height="30dp"
+	        android:text="@string/pih"
+	        android:textSize="15sp" />
+
+	    <TextView
+	        android:id="@+id/isworking"
+	        android:layout_width="50dip"
+	        android:layout_height="30dp"
+	        android:text="@string/num"
+	        android:textSize="15sp" />
+	</LinearLayout>
+
+</RelativeLayout>
